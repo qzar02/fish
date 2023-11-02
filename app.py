@@ -5,6 +5,7 @@ import yaml
 from flask import Flask, abort, render_template
 
 app = Flask(__name__)
+
 blog = yaml.safe_load(open("blog.yaml").read())
 publish = yaml.safe_load(open("posts/publish.yaml").read())
 draft = yaml.safe_load(open("posts/publish.yaml").read())

@@ -24,8 +24,13 @@ def build(pages):
     cli = app.test_client()
     for page in pages:
         r = cli.get(f"/{page['path']}")
+        folder, name = os.path.split(page['path'])
+        if folder:
+            os.makedirs(f"./build/{folder}", exist_ok=True)
+
         with open(f"./build/{page['path']}", "w") as f:
             f.write(r.data.decode())
+
     shutil.copytree("./static", "./build/static", dirs_exist_ok=True)
 
 

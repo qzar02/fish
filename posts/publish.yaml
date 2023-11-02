@@ -6,7 +6,7 @@
   user:
     name: My Name
   published_at: October 23, 2023
-  content: my-first-post.html
+  content: contents/my-first-post.html
 
 - path: "posts/foo/my-first-post-2.html"
   template: post.html
@@ -16,7 +16,7 @@
   user:
     name: My Name
   published_at: October 23, 2023
-  content: my-first-post.html
+  content: contents/my-first-post.html
 
 - path: "posts/foo/my-first-post-3.html"
   template: post.html
@@ -26,7 +26,7 @@
   user:
     name: My Name
   published_at: October 23, 2023
-  content: my-first-post.html
+  content: contents/my-first-post.html
 
 - path: "posts/foo/my-first-post-4.html"
   template: post.html
@@ -36,7 +36,7 @@
   user:
     name: My Name
   published_at: October 23, 2023
-  content: my-first-post.html
+  content: contents/my-first-post.html
 
 - path: "posts/foo/my-first-post-5.html"
   template: post.html
@@ -46,7 +46,7 @@
   user:
     name: My Name
   published_at: October 23, 2023
-  content: my-first-post.html
+  content: contents/my-first-post.html
 
 - path: "posts/foo/my-first-post-6.html"
   template: post.html
@@ -56,7 +56,7 @@
   user:
     name: My Name
   published_at: October 23, 2023
-  content: my-first-post.html
+  content: contents/my-first-post.html
 
 - path: "posts/foo/my-first-post-7.html"
   template: post.html
@@ -66,4 +66,4 @@
   user:
     name: My Name
   published_at: October 23, 2023
-  content: my-first-post.html
+  content: contents/my-first-post.html
