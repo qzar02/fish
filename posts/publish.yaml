@@ -1,0 +1,69 @@
+- path: "posts/foo/my-first-post-1.html"
+  template: post.html
+  header_bg_image: assets/img/post-bg.jpg
+  heading: Page cool 1
+  subheading: This is a page cool
+  user:
+    name: My Name
+  published_at: October 23, 2023
+  content: my-first-post.html
+
+- path: "posts/foo/my-first-post-2.html"
+  template: post.html
+  header_bg_image: assets/img/post-bg.jpg
+  heading: Page cool
+  subheading: This is a page cool
+  user:
+    name: My Name
+  published_at: October 23, 2023
+  content: my-first-post.html
+
+- path: "posts/foo/my-first-post-3.html"
+  template: post.html
+  header_bg_image: assets/img/post-bg.jpg
+  heading: Page cool
+  subheading: This is a page cool
+  user:
+    name: My Name
+  published_at: October 23, 2023
+  content: my-first-post.html
+
+- path: "posts/foo/my-first-post-4.html"
+  template: post.html
+  header_bg_image: assets/img/post-bg.jpg
+  heading: Page cool
+  subheading: This is a page cool
+  user:
+    name: My Name
+  published_at: October 23, 2023
+  content: my-first-post.html
+
+- path: "posts/foo/my-first-post-5.html"
+  template: post.html
+  header_bg_image: assets/img/post-bg.jpg
+  heading: Page cool
+  subheading: This is a page cool
+  user:
+    name: My Name
+  published_at: October 23, 2023
+  content: my-first-post.html
+
+- path: "posts/foo/my-first-post-6.html"
+  template: post.html
+  header_bg_image: assets/img/post-bg.jpg
+  heading: Page cool
+  subheading: This is a page cool
+  user:
+    name: My Name
+  published_at: October 23, 2023
+  content: my-first-post.html
+
+- path: "posts/foo/my-first-post-7.html"
+  template: post.html
+  header_bg_image: assets/img/post-bg.jpg
+  heading: Page cool
+  subheading: This is a page cool
+  user:
+    name: My Name
+  published_at: October 23, 2023
+  content: my-first-post.html

@@ -1,0 +1,35 @@
+title: My Site
+brand_name: My Brand
+heading: My Head
+subheading: My Sub Head
+site_name: My Site Name
+
+menu:
+  - path: index.html
+    title: Home
+
+  - path: about
+    title: About
+
+
+footer:
+  links:
+    - href: https://google.com
+      icon: fa-linkedin
+
+    - href: https://google.com
+      icon: fa-github
+
+    - href: https://google.com
+      icon: fa-medium
+
+header_bg_image: assets/img/home-bg.jpg
+
+# pages that are not posts 
+
+pages: 
+  - path: index.html
+    template: home.html
+
+  - path: about
+    template: home.html  

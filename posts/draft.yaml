@@ -1,0 +1,15 @@
+- path: /software/anything/foo/my-first-post
+  template: post.html
+  tags:
+    - software
+    - python
+    - programming
+    - web
+
+  heading: My First Post
+  subheading: How to create the first post
+  header_bg_image:
+  user:
+    name: My Name
+  published_at: October 23, 2023
+  content: my-first-post.html
