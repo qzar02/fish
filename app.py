@@ -1,34 +1,32 @@
 from datetime import date
 
 import yaml
-
 from flask import Flask, abort, render_template
 
 app = Flask(__name__)
+app.jinja_env.add_extension('jinja_markdown.MarkdownExtension')
 
 blog = yaml.safe_load(open("blog.yaml").read())
 publish = yaml.safe_load(open("posts/publish.yaml").read())
 draft = yaml.safe_load(open("posts/publish.yaml").read())
 
 
-def get_context(path):
-    post = [
-        post
-        for post in (publish + draft + blog["pages"])
-        if post["path"] == path
-    ]
-
-    post = post[0] if post else None
-    context = {"blog": blog, "today": date.today, "post": post, "publish": publish}
-    return context
-
-
 @app.route("/<path:path>")
 def page(path):
-    context = get_context(path)
-    post = context["post"]
-    if post is None:
+
+    for post in (publish + draft + blog["pages"]):
+        if post["path"] == path:
+            break
+    else:
         abort(404)
+
+    context = {
+        "blog": blog,
+        "today": date.today,
+        "post": post,
+        "publish": publish
+    }
+
     return render_template(post["template"], **context)
 
 
